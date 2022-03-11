@@ -1,0 +1,125 @@
+body {
+    background-image: url(../images/pattern-background-desktop.svg);
+    text-align: center;
+    /* position: relative; */
+}
+
+.main{
+
+    width: 375px;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-radius: 13px;
+    border-color: transparent;
+    background-color: white;
+    margin: 100px auto 0 auto;
+    
+}
+
+.desc {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+}
+
+.top_img {
+    width: 375px;
+    border-radius: 13px 13px 0 0;
+}
+.summary {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Fredoka', sans-serif;
+    display: block;
+    
+}
+
+.details {
+    background-color: rgb(250, 242, 242);
+    height: 70px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    /* display: table; */
+    /* position: relative; */
+}
+
+
+.plan {
+    display: inline-block;
+    text-align: left;
+    width: 150px;
+    position: relative;
+    right: 4px;
+    top: 15px;
+    font-family: 'Karla', sans-serif;
+}
+
+.price {
+    display: inline-block;
+    text-align: left;
+    width: 150px;
+    position: relative;
+    left: 22px;
+    bottom: 15px;
+    font-family: 'Karla', sans-serif;   
+}
+
+.music {
+    position: relative;
+    right: 185px;
+    bottom: 8px;
+    transform: scale(0.8);
+}
+
+.change {
+    display: inline-block;
+    font-size: 0.8em;
+    width: 100px;
+    text-align: left;
+    position: relative;
+    left: 130px;
+    bottom: 46px;
+    font-family: 'Karla', sans-serif;
+}
+.buttons {
+    height: 120px;
+}
+.pay {
+    width: 75%;
+    height: 40px;
+    border: solid;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: blue;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-shadow: 0 6px 10px rgb(0 0 0 / 0.2);
+    position: relative;
+    top: 25px;
+}
+
+.pay:hover {
+    background-color: rgb(71, 167, 199);
+}
+
+.cancel {
+    width: 75%;
+    height: 40px;
+    border: solid;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: white;
+    color: rgb(126, 122, 122);
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    top: 35px;
+}
+
+.cancel:hover {
+    color: rgb(37, 36, 36);
+}
